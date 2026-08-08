@@ -43,10 +43,11 @@ const BlocImagePrincipale = () => {
                 <div className="container hero__content">
                     <div className="hero__inner">
                         {/* Title */}
-                        <h1 className="hero__title">
-                        🎉 Bienvenue dans<br />
-                        <em>notre chalet</em>
-                        </h1>
+                        <h1 className="hero__title">Location de chalet à Anglès dans le Tarn</h1>
+                        {/* Title */}
+                        <h2 style={{color: "white"}}>
+                            🎉 Bienvenue dans <em>notre chalet</em>
+                        </h2>
 
                         {/* Text */}
                         <p className="hero__text">
