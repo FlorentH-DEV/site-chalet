@@ -32,6 +32,7 @@ const BlocImagePrincipale = () => {
                         height={1080}
                         alt="Chalet  Anglès"
                         className="hero__img"
+                        priority
                     />
                     <div className="hero__overlay" />
                 </div>
