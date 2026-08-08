@@ -61,7 +61,7 @@ export function AdressesSection() {
 
           <div className="grid">
 
-            <div className="col col-4">
+            <div className="col col-2">
               <PlaceCard
                 emoji="🌊"
                 name="Lake Café Raviège"
@@ -74,11 +74,11 @@ export function AdressesSection() {
               />
             </div>
 
-            <div className="col col-4">
+            <div className="col col-2">
               <PlaceCard
                 emoji="🏡"
                 name="Le rouquié du lac"
-                description={`${!isSummer ? '' : ""}`}
+                description={`${!isSummer ? '' : "Snack au caming, avec vue panoramique sur le lac de la raviège"}`}
                 address="19 chemin du lac, 81260 Lamontélarié"
                 phone="06 18 31 89 70"
                 distance="10m"
@@ -87,7 +87,7 @@ export function AdressesSection() {
               />
             </div>
 
-            <div className="col col-4">
+            <div className="col col-2">
               <PlaceCard
                 emoji="🌊"
                 name="Occitaglisse"
@@ -100,7 +100,7 @@ export function AdressesSection() {
               />
             </div>
 
-            <div className="col col-4">
+            <div className="col col-2">
               <PlaceCard
                 emoji="🌊"
                 name="Evasion Raviège"

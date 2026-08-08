@@ -188,7 +188,7 @@ export default function DecouvrirSection() {
               
               {/* Gorges d'Héric */}
               <div className="col col-3">
-                  <Card emoji="🌳" title="Sur les traces de l'Enfant Sauvage – Une aventure en famille à Lacaune" distance="≈ Quelques minutes">
+                  <Card emoji="🌳" title="Sur les traces de l'Enfant Sauvage – Une aventure en famille à Lacaune" distance="≈ 35min">
                       <div className="cardContent">
                           <div className="list">
                                 <div className="list-item"><li>Le Sentier de l'Enfant Sauvage est une balade ludique de 3,5 km</li></div>
