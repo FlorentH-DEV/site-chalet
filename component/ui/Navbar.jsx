@@ -65,7 +65,7 @@ export default function Navbar() {
             </div>
 
             <span className="logo__text">
-              Chalet MCS
+              Chalet
               <span className="logo__sub">Anglès, Tarn</span>
             </span>
           </button>

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer-content">
         <div>
-          <h3 className="footer-title">Chalet MCS Anglès</h3>
+          <h3 className="footer-title">Chalet Anglès</h3>
           <p className="footer-subtitle">
             13 Le Salvan Bas, 81260 Anglès, Tarn
           </p>
