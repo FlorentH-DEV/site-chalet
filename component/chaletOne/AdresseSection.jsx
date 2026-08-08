@@ -78,10 +78,12 @@ export function AdressesSection() {
               <PlaceCard
                 emoji="🏡"
                 name="Le rouquié du lac"
-                description=""
+                description={`${!isSummer ? '' : ""}`}
                 address="19 chemin du lac, 81260 Lamontélarié"
                 phone="06 18 31 89 70"
                 distance="10m"
+                className={`${!isSummer ? 'cardBarrer': ''}`}
+                isClose={!isSummer}
               />
             </div>
 

@@ -3,7 +3,7 @@ import { Fragment, useRef } from "react";
 
 const SectionPerso = ({ id, children }) => {
   const ref = useRef(null);
-  const inView = useInView(ref, { amount: 0.1 });
+  const inView = useInView(ref, { amount: 0.05 });
 
   return (
     <Fragment>
