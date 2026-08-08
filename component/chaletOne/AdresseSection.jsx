@@ -61,7 +61,7 @@ export function AdressesSection() {
 
           <div className="grid">
 
-            <div className="col col-3">
+            <div className="col col-4">
               <PlaceCard
                 emoji="🌊"
                 name="Lake Café Raviège"
@@ -74,11 +74,22 @@ export function AdressesSection() {
               />
             </div>
 
-            <div className="col col-3">
+            <div className="col col-4">
+              <PlaceCard
+                emoji="🏡"
+                name="Le rouquié du lac"
+                description=""
+                address="19 chemin du lac, 81260 Lamontélarié"
+                phone="06 18 31 89 70"
+                distance="10m"
+              />
+            </div>
+
+            <div className="col col-4">
               <PlaceCard
                 emoji="🌊"
                 name="Occitaglisse"
-                description={`${!isSummer ? '' : "Ambiance détendue et chalereuse au bord du lac."}`}
+                description={`${!isSummer ? '' : "Snack et activités nautiques au bord du lac de la Raviège 🌊"}`}
                 address="Gua des Brasses, 34330 La Salvetat-sur-Agout"
                 phone="06 03 18 95 78"
                 distance="25 min"
@@ -87,11 +98,11 @@ export function AdressesSection() {
               />
             </div>
 
-            <div className="col col-3">
+            <div className="col col-4">
               <PlaceCard
                 emoji="🌊"
                 name="Evasion Raviège"
-                description={`${!isSummer ? '' : ""}`} 
+                description={`${!isSummer ? '' : "Pizzeria-snack avec terrasse et vue panoramique sur le port et le lac de la Raviège 🍕🌊"}`} 
                 address="Port des bouldouïres, 34330 La Salvetat-sur-Agout"
                 phone="04 67 97 53 96"
                 distance="25 min"  
@@ -139,19 +150,8 @@ export function AdressesSection() {
                 distance="≈ 9 km"
                 />
             </div>
-
-            <div className="col col-3">
-              <PlaceCard
-                emoji="🏡"
-                name="Le rouquié du lac"
-                description=""
-                address="19 chemin du lac, 81260 Lamontélarié"
-                phone="06 18 31 89 70"
-                distance="10m"
-              />
-            </div>
             
-            <div className="col col-3">
+            <div className="col col-4">
                 <PlaceCard
                 emoji="🏡"
                 name="Auberge du Rialet"
@@ -162,7 +162,7 @@ export function AdressesSection() {
                 />
             </div>
 
-            <div className="col col-3">
+            <div className="col col-4">
                 <PlaceCard
                 emoji="🥩"
                 name="Restaurant Le Laouzas"
