@@ -11,9 +11,9 @@ import { AdressesSection } from '../../component/chaletOne/AdresseSection'
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Location de chalet à Anglès | Chalet avec vue sur l'étang du salvant",
+    title: "Location chalet à Anglès – Lac de la Raviège - Lac du saint peyres - Haut-Languedoc",
     description:
-        "Découvrez notre chalet à Anglès, dans le Tarn. Location de vacances, nature, activités et découverte de la région.",
+        "Découvrez notre chalet à Anglès, dans le Tarn. Location de vacances, nature, activités et découverte de la région au bord du l'étang du salvant.",
 };
 
 export default function Chalet () {
