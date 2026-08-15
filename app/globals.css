@@ -327,6 +327,7 @@ body {
   .hero__content {
     position: relative;
     z-index: 10;
+    width: 90%;
   }
   
   .hero__inner {
@@ -379,6 +380,11 @@ body {
   @media (min-width: 1024px) {
     .hero__title {
       font-size: 72px;
+    }
+    .hero__content {
+      position: relative;
+      z-index: 10;
+      width: 100%;
     }
   }
   
@@ -817,6 +823,7 @@ body {
   .contentBtnDirection{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 12px;
 
   }
@@ -825,4 +832,15 @@ body {
     .contentBtnDirection{
       flex-direction: column;
     }
+  }
+
+  .btnAirBnb{
+    /* background: linear-gradient(to right, white, red); */
+    background-color: bisque;
+    color: black;
+  }
+  .btnLeboncoin{
+    /* background: linear-gradient(to right, white, #df8f2f); */
+    background-color: bisque;
+    color: black;
   }

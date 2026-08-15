@@ -70,12 +70,28 @@ const BlocImagePrincipale = () => {
                         ))}
                         </div>
 
+                        
+                        {/* Réservation */}
                         <div className='contentBtnDirection'>
-                            <button className="btn-direction" onClick={openRouteMap}>
+                            <button className="btn-direction btnLeboncoin" style={{width: '80%'}} onClick={() => window.open("https://www.leboncoin.fr/ad/locations_saisonnieres/3200067393", "_blank")}>
+                                <img src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEX/////7+j/mm3/eDD/ei/Xbjf/YQD/aQD/bA3/bgzbZBuMOwD/bhT/cBPbZSCMPQmWQQrNV4v2AAAAQUlEQVR4AWJhwANGJQFdzaEBACAABCE/uP/KVo9MANz20/bhbnDF3RiI5dTAGBgLYkEsiAWxIAZiIAZiIAZioHYeIfcAyUnhYGEAAAAASUVORK5CYII="}/>
+                                Réservation le bon coin ➤
+                            </button>
+                            
+                            <button className="btn-direction btnAirBnb" style={{width: '80%'}} onClick={() => window.open("https://www.airbnb.fr/rooms/1506519373244027742", "_blank")}>
+                                <img src={"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIACAAIAMBEQACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAADBAAFBgIB/8QALBAAAgIABAQDCQEAAAAAAAAAAQIDBAAFERITITFBBoGRFCIyUVNhcXKhFf/EABoBAAIDAQEAAAAAAAAAAAAAAAIEAAEDBQf/xAAlEQACAQQBAgcBAAAAAAAAAAABAgADESExBBJREyJBYXGBkQX/2gAMAwEAAhEDEQA/AAYSnp0fyzL0tRz2bU/s9SuBxJdm4lj0VR3J/mCAvmK8jkGmVRF6mbQ1rZPtPMyoJVjgsVZ/aKlgHhybNpDDqrDsR/cQi2RJx+QahZHXpZdje9EHtEcDGpOZ5AEnsB3xJU01qii1Rlslla1bL0E16UJvLTycgoA6kD3fXGpGLTj065L+OF6mfCjXlHrf0vv8nNaghrf50VlbNbMVM1KUpsKzx8ipB6Ej3fTFAYtLqcgh/GK9LU8MN+U+vvbf7M3zHIgg9we2M515a+F41kzqFmQSNEryxxfUdVJVfUa+WDTcS/osV4xANr2BPYE2JhfDzyZhet0pw8i5gh48gHONgdwkP2DdfziLk2gc4LQppVXBTQ7jXT9jUniNnoXKlGAPGlBBwZCNOIxO4yD7E9PxiNg2lcACtTeq2S+x2Ggv0NwXieNY85lYII3lRJpIvpuygsPU6+eKfc0/nMW44F7gEgHuAbAysikeGRZYnZJEOqsp0IPzGBjjKrAqwuDH7ee5pcgeCxbJjf41VFTf+xUDXzwRcmK0uBxqTB0XI1km3xc4kqZ7mdOBIK9siJPgVkV9n67gdPLEDESVeBxqrF3XJ3ki/wA2OYhLJJNK8szs8jnVmY6knAxpVVFCqLAT/9k="}/> 
+                                Réservation Airbnb ➤
+                            </button>
+                        </div>
+
+
+                        {/* Direction */}
+                        <div className='contentBtnDirection' style={{paddingTop: '3%'}}>
+                            <button className="btn-direction" style={{width: '80%'}} onClick={openRouteMap}>
                                 🚗 Direction le chalet ➤ Map
                             </button>
                             
-                            <button className="btn-direction" onClick={openRouteWaze}>
+                            <button className="btn-direction" style={{width: '80%'}} onClick={openRouteWaze}>
                                 🚗 Direction le chalet ➤ Waze
                             </button>
                         </div>
